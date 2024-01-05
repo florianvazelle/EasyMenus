@@ -2,6 +2,7 @@ extends Control
 signal  close
 
 const HSliderWLabel = preload("res://addons/EasyMenus/Scripts/slider_w_labels.gd")
+const OptionsConstants = preload("res://addons/EasyMenus/Scripts/options_constants.gd")
 
 @onready var sfx_volume_slider : HSliderWLabel = $%SFXVolumeSlider
 @onready var music_volume_slider: HSliderWLabel = $%MusicVolumeSlider

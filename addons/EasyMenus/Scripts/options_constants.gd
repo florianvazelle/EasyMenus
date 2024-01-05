@@ -1,5 +1,4 @@
 extends Node
-class_name OptionsConstants
 
 const sfx_bus_name = "SFX"
 const music_bus_name = "Music" 

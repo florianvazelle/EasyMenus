@@ -1,6 +1,8 @@
 extends Node
 #Loads options like volume and graphic options on game startup
 
+const OptionsConstants = preload("res://addons/EasyMenus/Scripts/options_constants.gd")
+
 var config = ConfigFile.new()
 
 # Loads settings from config file. Loads with standard values if settings not 
